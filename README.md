@@ -9,8 +9,7 @@
 ## Funcionalidad
 
 El script realiza las siguientes acciones:
-1. Muestra una lista de las redes Wi-Fi guardadas en el sistema.
-2. Extrae las contraseñas almacenadas y las guarda en un archivo `wifi.txt` en el Escritorio.
+Extrae las contraseñas almacenadas y las guarda en un archivo `wifi.txt` en el Escritorio.
 
 ## Uso
 
