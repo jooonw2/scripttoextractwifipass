@@ -1,48 +1,49 @@
 # extract_wifi_pass.bat
 
-## Descripción
+## Description
 
-`extract_wifi_pass.bat` es un script para Windows que permite extraer y mostrar las contraseñas de las redes Wi-Fi guardadas en el sistema. El script hace uso de comandos internos de Windows para listar las redes Wi-Fi conocidas en la computadora y recuperar las contraseñas asociadas a cada una de ellas.
+`extract_wifi_pass.bat` is a script for Windows that allows you to extract and display the passwords of the Wi-Fi networks saved on the system. The script utilizes internal Windows commands to list the known Wi-Fi networks on the computer and retrieve the passwords associated with each of them.
 
-> ⚠️ **Advertencia:** Este script debe utilizarse con responsabilidad. Asegúrate de tener los permisos adecuados antes de usarlo en un sistema que no sea el tuyo. No utilices este script para acceder a redes sin autorización.
+> ⚠️ **Warning:** This script should be used responsibly. Ensure that you have the proper permissions before using it on a system that is not yours. Do not use this script to access networks without authorization.
 
-## Funcionalidad
+## Functionality
 
-El script realiza las siguientes acciones:
-Extrae las contraseñas almacenadas y las guarda en un archivo `wifi.txt` en el Escritorio.
+The script performs the following actions:
+- Extracts the stored passwords and saves them in a file named `wifi.txt` on the Desktop.
 
-## Uso
+## Usage
 
-1. Descarga el archivo `extract_wifi_pass.bat`.
+1. Download the `extract_wifi_pass.bat` file.
    
-   ![Descargar el archivo](images/Captura1.png)
+   ![Download the file](images/Captura1.png)
    
-2. Haz clic derecho sobre el archivo y selecciona "Ejecutar como administrador". Es necesario tener permisos de administrador para poder acceder a las configuraciones de las redes Wi-Fi.
+2. Right-click on the file and select "Run as administrator." Administrator permissions are required to access the Wi-Fi network settings.
 
-   ![Ejecutar como administrador](images/Captura2.png)
+   ![Run as administrator](images/Captura2.png)
 
-3. Acepta el mensaje del Control de Cuentas de Usuario (UAC) que solicita permisos para ejecutar el script como administrador.
+3. Accept the User Account Control (UAC) prompt that asks for permission to run the script as administrator.
 
-   ![Aceptar permisos de administrador](images/Captura3.png)
+   ![Accept administrator permissions](images/Captura3.png)
 
-4. El script generará un archivo llamado `wifi.txt` en el Escritorio con la información de las redes Wi-Fi y sus contraseñas.
+4. The script will generate a file named `wifi.txt` on the Desktop containing the information of the Wi-Fi networks and their passwords.
 
-   ![Resultado en el escritorio](images/Captura4.png)
+   ![Result on the desktop](images/Captura4.png)
 
-## Ejemplos
+## Examples
 
-### Ejecución sin redes disponibles
-Si no hay ninguna red Wi-Fi guardada en el sistema, el script indicará que no se encontraron redes disponibles.
+### Execution without available networks
+If there are no Wi-Fi networks saved on the system, the script will indicate that no available networks were found.
 
-   ![Sin redes disponibles](images/Captura5.png)
+   ![No available networks](images/Captura5.png)
 
-### Ejecución con redes disponibles
-Cuando hay redes Wi-Fi guardadas en el sistema, el archivo `wifi.txt` mostrará la información y contraseñas de cada red.
+### Execution with available networks
+When there are Wi-Fi networks saved on the system, the `wifi.txt` file will display the information and passwords for each network.
 
-   ![Ejemplo de archivo con resultado](images/Captura6.png)
+   ![Example of result file](images/Captura6.png)
 
-## Requisitos
+## Requirements
 
-- Sistema Operativo: Windows 7, 8, 10 o superior.
-- Permisos de administrador en el sistema.
+- Operating System: Windows 7, 8, 10, or higher.
+- Administrator permissions on the system.
+
 
