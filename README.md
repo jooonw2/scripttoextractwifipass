@@ -46,9 +46,3 @@ Cuando hay redes Wi-Fi guardadas en el sistema, el archivo `wifi.txt` mostrará 
 - Sistema Operativo: Windows 7, 8, 10 o superior.
 - Permisos de administrador en el sistema.
 
-## Instrucciones de Ejecución
-
-1. Clona el repositorio o descarga el archivo `extract_wifi_pass.bat` directamente:
-   
-   ```bash
-   git clone https://github.com/tu_usuario/extract_wifi_pass.git
