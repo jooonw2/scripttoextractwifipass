@@ -17,7 +17,7 @@ El script realiza las siguientes acciones:
 1. Descarga el archivo `extract_wifi_pass.bat`.
    
    ![Descargar el archivo](images/Captura1.png)
-   
+   https://raw.githubusercontent.com/jooonw2/scripttoextractwifipass/images/Captura1.jpg
 2. Haz clic derecho sobre el archivo y selecciona "Ejecutar como administrador". Es necesario tener permisos de administrador para poder acceder a las configuraciones de las redes Wi-Fi.
 
    ![Ejecutar como administrador](image/Captura2.png)
