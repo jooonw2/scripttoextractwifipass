@@ -20,27 +20,27 @@ El script realiza las siguientes acciones:
    
 2. Haz clic derecho sobre el archivo y selecciona "Ejecutar como administrador". Es necesario tener permisos de administrador para poder acceder a las configuraciones de las redes Wi-Fi.
 
-   ![Ejecutar como administrador](image/Captura2.png)
+   ![Ejecutar como administrador](images/Captura2.png)
 
 3. Acepta el mensaje del Control de Cuentas de Usuario (UAC) que solicita permisos para ejecutar el script como administrador.
 
-   ![Aceptar permisos de administrador](image/Captura3.png)
+   ![Aceptar permisos de administrador](images/Captura3.png)
 
 4. El script generará un archivo llamado `wifi.txt` en el Escritorio con la información de las redes Wi-Fi y sus contraseñas.
 
-   ![Resultado en el escritorio](image/Captura4.png)
+   ![Resultado en el escritorio](images/Captura4.png)
 
 ## Ejemplos
 
 ### Ejecución sin redes disponibles
 Si no hay ninguna red Wi-Fi guardada en el sistema, el script indicará que no se encontraron redes disponibles.
 
-   ![Sin redes disponibles](image/Captura5.png)
+   ![Sin redes disponibles](images/Captura5.png)
 
 ### Ejecución con redes disponibles
 Cuando hay redes Wi-Fi guardadas en el sistema, el archivo `wifi.txt` mostrará la información y contraseñas de cada red.
 
-   ![Ejemplo de archivo con resultado](image/Captura6.png)
+   ![Ejemplo de archivo con resultado](images/Captura6.png)
 
 ## Requisitos
 
